@@ -1,0 +1,17 @@
+{
+    "name"        : "Email::Send",
+    "version"     : "*",
+    "description" : "Send e-mail via local sendmail",
+    "depends"     : [ "Email::MIME" ],
+    "provides" : {
+        "Email::Send" : "lib/Email/Send.pm"
+    },
+    "authors" : [
+        "Gabor Szabo"
+    ],
+    "support" : {
+        "bugtracker" : "https://github.com/szabgab/perl6-Email-Send/issues",
+        "source" : "git://github.com/szabgab/perl6-Email-Send.git"
+    },
+    "source-url"  : "git://github.com/szabgab/perl6-Email-Send.git"
+}
